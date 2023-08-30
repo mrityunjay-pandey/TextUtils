@@ -50,10 +50,10 @@ return (
 <div className="container my-3 ">
 <Switch>
       <Route exact path ="/about">
-      <About/>
+      <About mode = {Mode} />
       </Route>
       <Route exact path = "/">
-      <TextForm showAlert={showAlert} heading = "Enter the text to analyze below" mode = {Mode}/>
+      <TextForm showAlert={showAlert} heading = "Try TextUtils - Word Counter, Character Counter, Remove extra spaces" mode = {Mode}/>
       </Route>
 </Switch>
 </div>
